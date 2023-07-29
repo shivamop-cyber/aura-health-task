@@ -47,3 +47,45 @@ You're about to initialize a Firebase project in this directory:
 [debug] [2023-07-29T07:23:14.247Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7017396490856524226 200
 [debug] [2023-07-29T07:23:14.248Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7017396490856524226 {"name":"operations/cp.7017396490856524226","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"799537335943","projectId":"aura-health-task","lifecycleState":"ACTIVE","name":"aura-health-task","createTime":"2023-07-29T07:23:11.809Z"}}
 [debug] [2023-07-29T07:23:14.254Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/aura-health-task:addFirebase [none]
+[debug] [2023-07-29T07:23:18.184Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/aura-health-task:addFirebase 200
+[debug] [2023-07-29T07:23:18.185Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/aura-health-task:addFirebase {"name":"operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5"}
+[debug] [2023-07-29T07:23:18.186Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 [none]
+[debug] [2023-07-29T07:23:19.395Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 200
+[debug] [2023-07-29T07:23:19.395Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 {"name":"operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5"}
+[debug] [2023-07-29T07:23:19.907Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2023-07-29T07:23:19.909Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 [none]
+[debug] [2023-07-29T07:23:21.029Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 200
+[debug] [2023-07-29T07:23:21.029Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 {"name":"operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5"}
+[debug] [2023-07-29T07:23:22.032Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2023-07-29T07:23:22.036Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 [none]
+[debug] [2023-07-29T07:23:23.388Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 200
+[debug] [2023-07-29T07:23:23.389Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 {"name":"operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5"}
+[debug] [2023-07-29T07:23:25.399Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2023-07-29T07:23:25.401Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 [none]
+[debug] [2023-07-29T07:23:26.251Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 200
+[debug] [2023-07-29T07:23:26.251Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 {"name":"operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5"}
+[debug] [2023-07-29T07:23:30.263Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2023-07-29T07:23:30.265Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 [none]
+[debug] [2023-07-29T07:23:31.784Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 200
+[debug] [2023-07-29T07:23:31.784Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 {"name":"operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5"}
+[debug] [2023-07-29T07:23:39.791Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2023-07-29T07:23:39.793Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 [none]
+[debug] [2023-07-29T07:23:40.591Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 200
+[debug] [2023-07-29T07:23:40.592Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5 {"name":"operations/workflows/YmViZDFmNDItOWU4Yy00MDMxLWE2NzgtMjM4ZGUyZDhkYTc5","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"aura-health-task","projectNumber":"799537335943","displayName":"aura-health-task","name":"projects/aura-health-task","resources":{"hostingSite":"aura-health-task"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: aura-health-task
+[info]    - Project Name: aura-health-task
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/aura-health-task/overview
+[info] i  Using project aura-health-task (aura-health-task) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
